@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scripts"
+version = "0.1.0"
+description = "consumer and producer scripts for kafka f1 project"
+authors = ["Collin Hicks"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamz = "^0.6.4"
+confluent-kafka = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
