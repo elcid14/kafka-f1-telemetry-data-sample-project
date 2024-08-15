@@ -11,9 +11,19 @@ The project is designed to have the following outcomes:
 
 ## Directory structure:
 
-> 
->
->
->
->
->
+> -infrastructure
+> -----models
+> -----docker-compose.yml
+> -----poetry.lock
+> -----pyproject.toml
+> -scripts
+> -----consuemr.py
+> -----producer.py
+> -----create-topic.sh
+> -----generate_f1_telemetry_data.py
+> -----poetry.lock
+> -----pyproject.toml
+> -README.md
+
+
+## Running pipeline:
