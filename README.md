@@ -10,20 +10,21 @@ The project is designed to have the following outcomes:
 3. The Kafka consumer then processed the message, and writes to data to postgersql table to persist for future front end application. 
 
 ## Directory structure:
-
-> -infrastructure
-> -----models
-> -----docker-compose.yml
-> -----poetry.lock
-> -----pyproject.toml
-> -scripts
-> -----consuemr.py
-> -----producer.py
-> -----create-topic.sh
-> -----generate_f1_telemetry_data.py
-> -----poetry.lock
-> -----pyproject.toml
-> -README.md
-
+```
+├── README.md
+├── infrastructure
+│   ├── docker-compose.yml
+│   └── models
+│       ├── main.py
+│       ├── poetry.lock
+│       └── pyproject.toml
+└── scripts
+    ├── consumer.py
+    ├── create-topic.sh
+    ├── generate_f1_telemetry_data.py
+    ├── poetry.lock
+    ├── producer.py
+    └── pyproject.toml
+```
 
 ## Running pipeline:
