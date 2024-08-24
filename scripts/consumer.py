@@ -1,5 +1,7 @@
 from confluent_kafka import Consumer
 import json
+
+
 c = Consumer({
     'bootstrap.servers':'localhost:9092',
     'group.id':'f1-telem-consumer',

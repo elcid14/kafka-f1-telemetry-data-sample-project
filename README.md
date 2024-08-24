@@ -34,3 +34,6 @@ The project is designed to have the following outcomes:
 ```
 
 ## Running pipeline:
+
+1. cd into infrastructure directory.
+2. 
